@@ -10,7 +10,7 @@ public class HillClimbingSearchQueen {
 		Node neighbor = null;
 		while(true) {
 			neighbor = current.getBestCandidate();
-			if(neighbor.getH()>current.getH()) {
+			if(neighbor.getH()<current.getH()) {
 				current=neighbor;
 				stepClimbed++;
 			}else {
