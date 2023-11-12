@@ -11,7 +11,7 @@ public class SAAlgo_NQueen {
 			}
 			Node next = current.selectNextRandomCandidate();
 			int deltaE = next.getH() - current.getH();
-			if (deltaE < 0) {
+			if (deltaE > 0) {
 				current = next;
 			} else if (Math.exp(deltaE / T) > Math.random()) {
 				current = next;
