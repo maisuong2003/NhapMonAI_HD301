@@ -76,9 +76,5 @@ public class AlphaBetaRightToLeftSearchAlgo implements ISearchAlgo {
 		}
 	}
 
-	@Override
-	public void execute(Node node, boolean rightToLeft) {
-		// TODO Auto-generated method stub
-
-	}
+	
 }
