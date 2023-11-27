@@ -70,9 +70,5 @@ public class MiniMaxSearchAlgo implements ISearchAlgo {
 		return v;
 	}
 
-	@Override
-	public void execute(Node node, boolean rightToLeft) {
-		// TODO Auto-generated method stub
-		
-	}
+
 }
